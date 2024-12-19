@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "Big data project"
+version = "0.1.0"
+description = "Packages for the bid data project"
+authors = ["Vinay Kumar Uppalapati"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+ruff = "^0.8.3"
+cassandra-driver = "^3.29.2"
+matplotlib = "^3.10.0"
+kafka-python = {git = "https://github.com/dpkp/kafka-python.git"}
+scikit-learn = "^1.6.0"
+pyyaml = "^6.0.2"
+requests = "^2.32.3"
+chardet = "^5.2.0"
+seaborn = "^0.13.2"
+pdoc = "^15.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
