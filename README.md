@@ -80,6 +80,6 @@ This project demonstrates a complete data engineering and data science pipeline,
 - **Cassandra (DataStax Astra)**: Big Data Platform for scalable data storage and management.
 
 ## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+Contributions are welcome! Please fork the repository and submit a pull request i will make sure to check it and merge it.
 
 Enjoy the world of Big Data Engineering and Science, transforming raw data into actionable insights through data pipelines and machine learning.
